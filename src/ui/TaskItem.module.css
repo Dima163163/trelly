@@ -1,0 +1,36 @@
+.taskItem {
+    border: 5px solid black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    background: #ffffff;
+}
+
+.taskItem.selected {
+    border-color: blue;
+}
+
+.smallPriority {
+    background: #ffd7b5;
+}
+
+.lowPriority {
+    background: #ffb38a;
+}
+
+.middlePriority {
+    background: #ff9248
+}
+
+.highPriority{
+    background: #ff6700;
+}
+
+.title {
+    font-size: 20px;
+    color: yellow;
+}
+
+.title.completed {
+    text-decoration: line-through;
+}
